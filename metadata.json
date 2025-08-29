@@ -1,0 +1,5 @@
+{
+  "name": "Portal de Facturación CFDI 4.0",
+  "description": "Una página web moderna e intuitiva para un portal de facturación CFDI 4.0. Ofrece timbrado, descarga de XML/PDF, complementos de pago y más, con un modelo de pago por folio.",
+  "requestFramePermissions": []
+}
