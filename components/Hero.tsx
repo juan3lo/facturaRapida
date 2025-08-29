@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
                         Ver Planes y Precios
                     </a>
                     <a href="#features" className="bg-brand-dark-light hover:bg-brand-dark-border text-brand-text font-semibold py-3 px-8 rounded-lg transition-colors duration-300 border border-brand-dark-border">
-                        Conocer Más
+                        Conocer Máss
                     </a>
                 </div>
             </div>
