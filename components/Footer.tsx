@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Logo } from './icons';
+import { Logo, CraneoTechLogo } from './icons';
 
 const Footer: React.FC = () => {
   return (
@@ -28,7 +27,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold text-brand-text mb-4">Soporte</h4>
             <ul className="space-y-2">
-              <li><a href="mailto:soporte@facturahoy.com" className="text-brand-text-secondary hover:text-brand-blue transition-colors">soporte@facturahoy.com</a></li>
+              <li><a href="mailto:soporte@facturarapida.com" className="text-brand-text-secondary hover:text-brand-blue transition-colors">soporte@facturarapida.com</a></li>
               <li><p className="text-brand-text-secondary">Chat en vivo</p></li>
               <li><a href="#" className="text-brand-text-secondary hover:text-brand-blue transition-colors">Términos de Servicio</a></li>
               <li><a href="#" className="text-brand-text-secondary hover:text-brand-blue transition-colors">Aviso de Privacidad</a></li>
@@ -38,7 +37,12 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-12 border-t border-brand-dark-border pt-6 text-center text-sm text-brand-text-secondary">
-          <p>&copy; {new Date().getFullYear()} Factura Hoy. Todos los derechos reservados. Una solución de Facturación Digital S.A. de C.V.</p>
+          <p>&copy; {new Date().getFullYear()} FacturaRápida. Todos los derechos reservados.</p>
+           <div className="flex items-center justify-center mt-2 opacity-80">
+            <span className="mr-2">Un producto de</span>
+            <CraneoTechLogo className="h-5 w-5 mr-1" />
+            <span className="font-semibold text-brand-text">CraneoTech</span>
+        </div>
         </div>
         
       </div>

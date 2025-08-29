@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const CheckCircleIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -69,13 +68,26 @@ export const CollectionIcon: React.FC<{ className?: string }> = ({ className }) 
 );
 
 export const Logo: React.FC<{ className?: string }> = ({ className }) => (
-  <svg className={className} viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <svg className={className} viewBox="0 0 205 40" xmlns="http://www.w3.org/2000/svg">
     <g fill="none" fillRule="evenodd">
-      <path d="M19.721 13.978L16.23 29.5h-2.73l-1.3-6.24-1.3 6.24H8.2l-3.5-15.522h2.82l2.05 9.72 1.95-9.72h2.6l1.95 9.72 2.05-9.72h2.8zM26.96 14.1l-4.14 15.4h-2.6l4.14-15.4z" fill="#007BFF"></path>
+      <path d="M11.9,10 L21,20 L11.9,30 M2,10 L11.1,20 L2,30" stroke="#007BFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
       <text fontFamily="Arial-BoldMT, Arial" fontSize="20" fontWeight="bold" fill="#C9D1D9">
         <tspan x="35" y="29">Factura</tspan>
-        <tspan x="110" y="29" fill="#8B949E">Hoy</tspan>
+        <tspan x="112" y="29" fill="#007BFF">Rápida</tspan>
       </text>
     </g>
   </svg>
+);
+
+export const CraneoTechLogo: React.FC<{ className?: string }> = ({ className }) => (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 16V17.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 8V6.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16.5 14.5L17.5 16" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6.5 8.5L5.5 8" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M19 9.5L20.5 9" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M3.5 15.5L5 15" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
 );
